@@ -1,5 +1,11 @@
 var Dog = require("./Dog");
+var Cat = require("./Cat");
+var Dog = require("./Dog");
 
-var tom = new Dog("tom");
 
-tom.sayHi();
+var ber = new Dog("ber");
+
+var a = new Cat();
+
+ber.sayHi();
+console.log(a);
